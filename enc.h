@@ -1,7 +1,7 @@
 /**********************************************************************
 Header file: enc.h
 
-$Id: enc.h,v 1.1 1999/12/13 08:57:46 lenox Exp $
+$Id: enc.h,v 1.2 1999/12/16 19:39:15 menno Exp $
 
 Authors:
 HP    Heiko Purnhagen, Uni Hannover <purnhage@tnt.uni-hannover.de>
