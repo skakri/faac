@@ -1,5 +1,5 @@
 /*
- * FAAD - Freeware Advanced Audio Decoder
+ * FAAC - Freeware Advanced Audio Decoder
  * Copyright (C) 2001 Menno Bakker
  *
  * This library is free software; you can redistribute it and/or
@@ -16,7 +16,7 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  *
- * $Id: aacinfo.c,v 1.3 2001/08/03 11:47:03 menno Exp $
+ * $Id: AACINFO.C,v 1.1 2001/08/03 11:47:03 menno Exp $
  */
 
 #include <windows.h>
@@ -27,7 +27,7 @@
 
 const int sample_rates[] = {96000,88200,64000,48000,44100,32000,24000,22050,16000,12000,11025,8000};
 
-static int read_ADIF_header(HANDLE file, faadAACInfo *info)
+static int read_ADIF_header(HANDLE file, FAACAACInfo *info)
 {
 	unsigned long tmp;
 	int bitstream;
@@ -65,7 +65,7 @@ static int read_ADIF_header(HANDLE file, faadAACInfo *info)
 	return 0;
 }
 
-static int read_ADTS_header(HANDLE file, faadAACInfo *info, int *seek_table,
+static int read_ADTS_header(HANDLE file, FAACAACInfo *info, int *seek_table,
 							int tagsize)
 {
 	/* Get ADTS header data */
@@ -163,7 +163,7 @@ static int f_id3v2_tag(HANDLE file)
 	}
 }
 
-int get_AAC_format(char *filename, faadAACInfo *info, int *seek_table)
+int get_AAC_format(char *filename, FAACAACInfo *info, int *seek_table)
 {
 	unsigned int tagsize;
 	HANDLE file;
