@@ -52,9 +52,9 @@ Copyright (c) 1997.
 
 Source file:
 
-$Id: psych.c,v 1.14 2000/01/04 15:22:52 menno Exp $
-$Id: psych.c,v 1.14 2000/01/04 15:22:52 menno Exp $
-$Id: psych.c,v 1.14 2000/01/04 15:22:52 menno Exp $
+$Id: psych.c,v 1.15 2000/01/05 21:41:09 menno Exp $
+$Id: psych.c,v 1.15 2000/01/05 21:41:09 menno Exp $
+$Id: psych.c,v 1.15 2000/01/05 21:41:09 menno Exp $
 
 **********************************************************************/
 
