@@ -34,8 +34,8 @@ Copyright (c)1997.
 /**************************************************************************
   Version Control Information			Method: CVS
   Identifiers:
-  $Revision: 1.11 $
-  $Date: 2000/10/03 19:58:14 $ (check in)
+  $Revision: 1.12 $
+  $Date: 2000/10/04 19:45:33 $ (check in)
   $Author: menno $
   *************************************************************************/
 

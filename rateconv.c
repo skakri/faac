@@ -1,7 +1,7 @@
 /**********************************************************************
 audio sample rate converter
 
-$Id: rateconv.c,v 1.4 2000/10/03 19:58:14 menno Exp $
+$Id: rateconv.c,v 1.5 2000/10/04 19:45:33 menno Exp $
 
 Source file: rateconv.c
 
