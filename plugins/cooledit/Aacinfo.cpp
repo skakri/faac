@@ -16,7 +16,7 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  *
- * $Id: Aacinfo.cpp,v 1.2 2002/05/26 18:29:59 menno Exp $
+ * $Id: Aacinfo.cpp,v 1.3 2002/08/22 22:58:57 menno Exp $
  */
 
 #include <windows.h>
